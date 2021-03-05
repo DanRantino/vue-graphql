@@ -8,8 +8,6 @@ const server = new ApolloServer({
   typeDefs,
   resolvers
 })
-//DanielAdin
-//RhsEUaPTocopyHjP
 
 mongoose.connect(MONGODB, {useUnifiedTopology: true, useNewUrlParser: true })
       .then(() => {
